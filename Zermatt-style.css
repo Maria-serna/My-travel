@@ -1,0 +1,379 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Caveat|Chewy|Cinzel+Decorative|Indie+Flower|Open+Sans|Satisfy|Sriracha|Yeseva+One&display=swap');
+/*Header*/
+header {
+    width: 100%;
+}
+
+/*Nav*/
+#Menu{
+    background-color: #191970;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100px;
+    max-width-height: 100%;
+    padding: 0;
+    margin: 0;
+   /* position: fixed;*/
+}
+#Menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#Menu ul li{
+    display: inline-block;
+}
+#Menu ul li a{
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 70px;
+    text-decoration: none;
+}
+#Menu ul li a:hover{
+    background-color: #6495ED;
+}
+/*Imágen anclada y texto sobre esta*/
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("imagen/ZERMATT/img1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+.hero h1 {
+    font-family: 'Cinzel Decorative';
+    font-size: 7em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    text-shadow: 2px 2px 2px white;
+}
+
+.text-border{
+    color: black;
+    font-weight: 900;
+}
+
+/*estructura del texto*/
+
+body {
+    font-family: sans-serif;
+    color: black;
+    margin: 0;
+}
+p {
+    font-family: 'Quattrocento Sans', Sans-serif; 
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    width: auto;
+    height: auto;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 10px 0 10px 0;
+    background-color: none;
+    font-weight: normal;
+    line-height: 1,95em;
+}
+h1{
+    color: #000033;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 16px;
+    font-family: 'Roboto', Sans-serif;
+}
+
+h2 {
+    color: #000033;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Roboto', Sans-serif;
+}       
+hr{
+  background-color: #191970;
+  height: 3px;
+  }
+/*Semantica section*/
+.text-container{
+    font-size: 28px;
+    background-color: white;
+    margin: 0px;
+    padding:0px;
+    border: 0px;
+    text-align: center;
+}   
+.contained{
+    width: 70%;
+    height: 60%;
+    background-color: #f0f0f0;
+    float: left;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+#history img{
+    width: 400px;
+    height: 250px;
+    margin: 0, auto;
+    border:2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 0, 500%;
+}
+
+table, th {
+    margin: auto;
+    text-decoration: none !important;
+    justify-content: space-around;
+    color: #191970;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration:none;
+    color: #191970;
+}
+#town img{
+    width: 400px;
+    height: auto;
+    margin: 0, 20px;
+    border: 2px solid #fff;
+    display: flex;
+    padding: 0, 500%;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+}
+#Cervino img{
+    width: 400px;
+    height: auto;
+    margin: 0, 20px;
+    border: 2px solid #fff;
+    display: flex;
+    padding: 0, 500%;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+}
+
+#Gornergrat img{
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 55px;
+    margin-top: 35px; 
+    border: 2px solid #fff;
+    display: flex;
+    padding: auto;
+    box-sizing: border-box;
+    position: relative;
+    float: right;   
+}
+
+#Gorner img{
+    width: 400px;
+    height: 210px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-top: 3px; 
+    border: 2px solid #fff;
+    display: flex;
+    padding: auto;
+    box-sizing: border-box;
+    position: relative;
+    float: left;   
+}
+
+#Museum img{
+    width: 400px;
+    height: 250px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    margin-right: 55px;
+    margin-top: 15px; 
+    border: 2px solid #fff;
+    display: flex;
+    padding: auto;
+    box-sizing: border-box;
+    position: relative;
+    float: right; 
+}
+
+/*Slide*/
+.container-all{
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-left: 120px;
+}
+
+.slide{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;
+    animation-name: autoplay;
+    animation-duration: 60s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.item-slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 700px;
+}
+.item-slide img {
+    max-width: 100%!important;
+}
+
+@keyframes autoplay{
+    8%{
+        transform: translate3d(calc(-100% * 0), 0, 0);
+    }
+
+    16%{
+        transform: translate3d(calc(-100% * 1), 0, 0);
+    }
+
+    24%{
+        transform: translate3d(calc(-100% * 2), 0, 0);
+    }
+
+    32%{
+        transform: translate3d(calc(-100% * 3), 0, 0);
+    }
+
+    40%{
+        transform: translate3d(calc(-100% * 4), 0, 0);
+    }
+
+    48%{
+        transform: translate3d(calc(-100% * 5), 0, 0);
+    }
+
+    56%{
+        transform: translate3d(calc(-100% * 6), 0, 0);
+    }
+
+    64%{
+        transform: translate3d(calc(-100% * 7), 0, 0);
+    }
+
+    72%{
+        transform: translate3d(calc(-100% * 8), 0, 0);
+    }
+
+    80%{
+        transform: translate3d(calc(-100% * 9), 0, 0);
+    }
+
+    88%{
+        transform: translate3d(calc(-100% * 10), 0, 0);
+    }
+
+    100%{
+        transform: translate3d(calc(-100% * 11), 0, 0);
+    }
+}
+/*Restaurants*/
+#Chez img{
+  width: 400px;
+  height: 250px;
+  margin:0, auto;
+  border: 2px solid #fff;
+  display: inline-block;
+  padding: auto;
+  box-sizing: border-box;
+  position: relative;
+  float: center;   
+}
+#Stubli img{
+ width: 400px;
+ height: 250px;
+ margin:0, auto;
+ border: 2px solid #fff;
+ display: inline-block;
+ padding: auto;
+ box-sizing: border-box;
+ position: relative;
+ float: center;  
+}
+
+/*Figura y figcaptiion*/
+figure{
+    margin: 0;
+    display: inline-block;
+    position: relative;
+
+}
+figcaption{
+    display: none;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0,0, 0.6);
+    width: 90%;
+    padding: 5%;
+    color: white;
+}
+figure:hover figcaption{
+    display: block;}
+
+    /*Semántica aside*/
+    aside{
+        width: 27%;
+        height: 80%;
+        background-color: #f0f0f0;
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #img.aside{
+        padding-bottom: 70px;
+        width: 300px;
+    }
+    #Sis img{
+        width: 200px;
+        height: auto;
+        border: 2px solid #fff;
+        display: flex;
+        padding: 0, 500%;
+        box-sizing: border-box;
+        position: relative;
+        margin-bottom: 20px; 
+    }
+    /*Semántica footer*/
+    footer{
+        width: 100%;
+        height:50px;
+        background-color: #191970;
+        float: left;
+        margin-top: 20px;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 25px;
+    }
+
