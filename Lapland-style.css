@@ -1,0 +1,409 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Caveat|Chewy|Cinzel+Decorative|Indie+Flower|Open+Sans|Satisfy|Sriracha|Yeseva+One&display=swap');
+/* Background colors */
+body{
+  background-color:  #fff;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 700px;
+  height: auto;
+}
+/*Header*/
+header {
+  width: 100%;
+}
+/*Nav*/
+#Menu{
+  background-color: #191970;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100vw;
+  max-width-height: 100vw;
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+#Menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#Menu ul li{
+  display: inline-block;
+}
+#Menu ul li a{
+  color: white;
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px 70px;
+  text-decoration: none;
+}
+#Menu ul li a:hover{
+  background-color: #6495ED;
+}
+/*Imágen anclada y texto sobre esta*/
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("imagen/LAPLAND/img1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.hero h1 {
+  font-family: 'Cinzel Decorative';
+  font-size: 7em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px 2px white;
+}
+
+.text-border{
+  color: black;
+  font-weight: 900;
+}
+
+/*estructura del texto*/
+
+body {
+  font-family: 'Quattrocento Sans';
+  color: black;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}    
+p {
+ font-family: 'Quattrocento Sans', sans-serif;
+ font-size: 18px;
+ color: black;
+ text-align: justify;
+ width: auto;
+ height: auto;
+ padding-left: 3em;
+ padding-right: 3em;
+ padding-bottom: 0;
+ padding-top: 0;
+ margin: 10px 0 10px 0;
+ background-color: none;
+ font-weight: normal;
+ line-height: 1,95em;
+}
+h1{
+  color: #000033;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 16px;
+  font-family: 'Roboto', Sans-serif;
+}
+
+h2 {
+  color: #000033;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: 'Roboto', Sans-serif;
+}  
+h3 {
+  color: #000033;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: 'Roboto', Sans-serif;
+} 
+
+hr{
+  background-color: #191970;
+  height: 5px;
+  }
+#About{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 50px;
+  }
+
+#history{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#content{
+  width: 70%;
+  height: auto; 
+  background-color: none;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#Place1{
+  width: 48%;
+  height: auto; 
+  background-color: #f0f0f0;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+#Place2{
+  width: 48%;
+  height: auto; 
+  background-color: #f0f0f0;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#Place3{
+  width: 48%;
+  height: auto; 
+  background-color: #f0f0f0;
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#Place4{
+  width: 48%;
+  height: auto; 
+  background-color: #f0f0f0;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+#PL1 img{
+  width: 400px;
+  height: 300px;
+  position: center;
+  border: 2px solid #fff;
+}
+
+#Restaurants{
+  width: 100%;
+  height: auto;
+  position: top;
+  display: inline-block;
+}
+#RST1{
+  width: 48%;
+  height: auto; 
+  background-color: #f0f0f0;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 10px;  
+}
+#RST2{
+  width: 48%;
+  height: auto; 
+  background-color: #f0f0f0;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 10px;  
+}
+ul{
+  position: center;
+  padding-left: 70px;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+#Restaurants img{
+ width: 500px;
+ height: 300px;
+ border: 2px solid #fff;
+ margin-bottom: 10px;
+}
+
+#itinerary{
+  width: 100%;
+  height: auto;
+  position: top;
+  display: inline-block;
+}
+
+/*Slide*/
+.container-all{
+    position: relative;
+    max-width: 700px;*
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 120px;
+}
+
+.slide{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;
+    animation-name: autoplay;
+    animation-duration: 85s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
+  }
+
+.item-slide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 700px;
+  }
+.item-slide img {
+    max-width: 100%!important;
+   }
+
+@keyframes autoplay{
+    5%{
+        transform: translate3d(calc(-100% * 0), 0, 0);
+    }
+
+    10%{
+        transform: translate3d(calc(-100% * 1), 0, 0);
+    }
+
+    15%{
+        transform: translate3d(calc(-100% * 2), 0, 0);
+    }
+
+    20%{
+        transform: translate3d(calc(-100% * 3), 0, 0);
+    }
+
+    25%{
+        transform: translate3d(calc(-100% * 4), 0, 0);
+    }
+
+    30%{
+        transform: translate3d(calc(-100% * 5), 0, 0);
+    }
+
+    35%{
+        transform: translate3d(calc(-100% * 6), 0, 0);
+    }
+
+    40%{
+        transform: translate3d(calc(-100% * 7), 0, 0);
+    }
+
+    45%{
+        transform: translate3d(calc(-100% * 8), 0, 0);
+    }
+
+    50%{
+        transform: translate3d(calc(-100% * 9), 0, 0);
+    }
+
+    55%{
+        transform: translate3d(calc(-100% * 10), 0, 0);
+    }
+
+    60%{
+        transform: translate3d(calc(-100% * 11), 0, 0);
+    }
+
+    66%{
+        transform: translate3d(calc(-100% * 12), 0, 0);
+    }
+
+    73%{
+        transform: translate3d(calc(-100% * 13), 0, 0);
+    }
+
+    82%{
+        transform: translate3d(calc(-100% * 14), 0, 0);
+    }
+
+    93%{
+        transform: translate3d(calc(-100% * 15), 0, 0);
+    }
+
+    100%{
+        transform: translate3d(calc(-100% * 16), 0, 0);
+    }
+}
+
+/*Figura y figcaptiion*/
+figure{
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  float: center;
+ }
+figcaption{
+  display: none;
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgba(0,0,0, 0.6);
+  width: 100%;
+  padding: 5%;
+  color: white;
+  }
+figure:hover figcaption{
+  display: block;}
+
+  aside{
+   width: 27%;
+   height: 42%;
+   background-color: #f0f0f0;
+   float: left;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+ aside img{
+   padding-bottom: 70px;
+   width: 300px;
+   height: 250px;
+ }
+
+ aside #person{
+   width: 27%;
+   height: auto;
+   background-color: #f0f0f0;
+   float: left;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
+
+ /*Semántica footer*/
+ footer{
+  width: 100%;
+  height:50px;
+  background-color: #191970;
+  float: left;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 25px;
+}
